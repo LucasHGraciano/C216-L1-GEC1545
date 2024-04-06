@@ -1,0 +1,301 @@
+{
+	"id": "91ea034d-af54-4e4e-b431-aedf28e07b07",
+	"name": "C2016-L1-PRATICA-2",
+	"timestamp": "2024-04-06T17:14:32.420Z",
+	"collection_id": "34077615-ca77276c-cf3b-4e5b-8c65-328be8441a8f",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 9,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-04-06T17:14:31.176Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "2c2c7e17-1f6e-45fa-8d50-a0d737aba81a",
+			"name": "home",
+			"url": "http://localhost:5000/",
+			"time": 196,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				196
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "22eaed93-272e-4d3d-ab02-cd82f824de60",
+			"name": "home",
+			"url": "http://localhost:5000/",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "27662630-0190-443d-a590-956ae12c99ce",
+			"name": "Path Params",
+			"url": "http://localhost:5000/api/v1/params/Lucas_GEC1545",
+			"time": 8,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				8
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "1c2de855-561f-4c63-94f8-6b3b3c329edc",
+			"name": "Query Params",
+			"url": "http://localhost:5000/api/v1/query?name=Lucas_GEC1545",
+			"time": 53,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				53
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "bf9ec185-ec60-4da5-9633-56ee8eebf985",
+			"name": "Add 1",
+			"url": "http://localhost:5000/api/v1/add",
+			"time": 6,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "d515b628-71d2-4725-8278-639d0ab74a30",
+			"name": "Add 2",
+			"url": "http://localhost:5000/api/v1/add",
+			"time": 5,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "098cb7b8-ffa7-4e30-b25c-f37a61d786ca",
+			"name": "Add 3",
+			"url": "http://localhost:5000/api/v1/add",
+			"time": 5,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "a91e42b9-4837-4eca-85a8-cdfcf8bbb00e",
+			"name": "List repo",
+			"url": "http://localhost:5000/api/v1/list",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "18d1eb5b-cb47-48e6-9614-9358bf6519e9",
+			"name": "Delete repo",
+			"url": "http://localhost:5000/api/v1/list",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 288,
+	"collection": {
+		"requests": [
+			{
+				"id": "2c2c7e17-1f6e-45fa-8d50-a0d737aba81a",
+				"method": "GET"
+			},
+			{
+				"id": "22eaed93-272e-4d3d-ab02-cd82f824de60",
+				"method": "POST"
+			},
+			{
+				"id": "27662630-0190-443d-a590-956ae12c99ce",
+				"method": "GET"
+			},
+			{
+				"id": "1c2de855-561f-4c63-94f8-6b3b3c329edc",
+				"method": "GET"
+			},
+			{
+				"id": "bf9ec185-ec60-4da5-9633-56ee8eebf985",
+				"method": "POST"
+			},
+			{
+				"id": "d515b628-71d2-4725-8278-639d0ab74a30",
+				"method": "POST"
+			},
+			{
+				"id": "098cb7b8-ffa7-4e30-b25c-f37a61d786ca",
+				"method": "POST"
+			},
+			{
+				"id": "a91e42b9-4837-4eca-85a8-cdfcf8bbb00e",
+				"method": "GET"
+			},
+			{
+				"id": "18d1eb5b-cb47-48e6-9614-9358bf6519e9",
+				"method": "DELETE"
+			}
+		]
+	}
+}
