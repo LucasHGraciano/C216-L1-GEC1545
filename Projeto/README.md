@@ -25,4 +25,5 @@ Este projeto é uma aplicação CRUD (Create, Read, Update, Delete) para a gest�
 
 # Exemplo de Uso
 - Execute o docker-compose
+  
 docker-compose up --build
