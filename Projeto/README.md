@@ -9,6 +9,13 @@ Este projeto é uma aplicação CRUD (Create, Read, Update, Delete) para a gest�
 - Atualizar registros: Permite modificar informações de livros, categorias e autores.
 - Deletar registros: Permite remover livros, categorias e autores do sistema.
 
+# Tecnologias Utilizadas
+- Frontend > HTML
+- Backend > Node.js com Express
+- Banco de Dados > PostgreSQL
+- Gerenciamento de Dependências > npm (Node Package Manager)
+- Contêinerização > Docker / Docker Compose
+
 # Endpoints Principais
 - POST /inserir: Adiciona um novo livro, categoria e autor.
 - GET /listar: Retorna a lista de todos os livros juntamente com sua categoria e autor. Também possibilita executar alguma ação (excluir ou atualizar).
@@ -16,4 +23,6 @@ Este projeto é uma aplicação CRUD (Create, Read, Update, Delete) para a gest�
 - POST /atualizar/id: Atualiza alguma das informações do livro (nomem, categoria ou autor).
 - DEL /reset: Deleta a lista dos livros (reseta o banco de dados).
 
-
+# Exemplo de Uso
+- Execute o docker-compose
+docker-compose up --build
