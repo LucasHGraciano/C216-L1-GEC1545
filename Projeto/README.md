@@ -12,7 +12,7 @@ Este projeto é uma aplicação CRUD (Create, Read, Update, Delete) para a gest�
 # Endpoints Principais
 - POST /inserir: Adiciona um novo livro, categoria e autor.
 - GET /listar: Retorna a lista de todos os livros juntamente com sua categoria e autor. Também possibilita executar alguma ação (excluir ou atualizar).
-- POST /excluir/id: Exclui um livro juntamente com sua categoria e autor.
+- POST /excluir: Exclui um livro juntamente com sua categoria e autor.
 - POST /atualizar/id: Atualiza alguma das informações do livro (nomem, categoria ou autor).
 - DEL /reset: Deleta a lista dos livros (reseta o banco de dados).
 
